@@ -1,0 +1,26 @@
+{
+  "name": "ace-bootstrap-api",
+  "version": "1.0.0",
+  "description": "Bootstrap the Ace app by returning Auth0 keys",
+  "main": "server.js",
+  "scripts": {
+    "style": "eslint app/ bin/ server.js",
+    "start": "node ./bin/www"
+  },
+  "author": "Ross Hendry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "3.17.1",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.0",
+    "winston-null": "1.0.2"
+  }
+
+}
